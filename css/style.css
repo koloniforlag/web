@@ -1,0 +1,228 @@
+@import url(reset.css);
+
+html, body
+{ margin: 0 0 1px;
+  padding: 0;
+  height:100.1%; }
+
+#container
+{ width: 700px;
+  padding: 10px 0px;
+  margin: auto;
+  min-height: 97%;
+  position:relative; }
+
+#menu
+{ background: top center no-repeat url(../img/rymdmanet.jpg);
+  margin: 28px 0;
+  padding-top: 153px;
+  font: 16px Georgia, serif;
+  text-transform: lowercase;
+  text-align: center; }
+#menu li
+{ display: inline;
+  padding-left: 12px;
+  border-left: 1px solid black;
+  margin-left: 9px; }
+#menu li:first-child
+{ padding: 0;
+  border: none;
+  margin: 0; }
+#menu a
+{ text-decoration: none; }
+
+#footer
+{ width: 300px;
+  margin: 0px 0px 10px 270px;
+  position:absolute;
+  bottom: 0;
+  height: 80px; }
+#footer .name, #footer address
+{ float: left; }
+#footer .name
+{ text-indent: -9999em;
+  overflow: hidden;
+  text-align: left; 
+  background: no-repeat url(../img/logga_text_70.png);
+  width: 65px;
+  height: 70px; }
+#footer address
+{ font: 12px/18px Georgia, serif;
+  margin: -1px 0 0 0; }
+#footer address a
+{ text-decoration: none; }
+
+
+a
+{ color: black;
+  text-decoration: underline; }
+
+a:hover
+{ color: #5b88a4;
+  text-decoration: none; }
+
+em
+{ font-style: italic; }
+
+h1
+{ font: 24px/30px Georgia, serif, 'Times New Roman';
+  margin-bottom: 1ex; }
+h1.om
+{ font: 15px/1px Georgia, serif, 'Times New Roman';
+  margin-bottom: 2ex; }
+
+h2
+{ font: 20px/30px Georgia, serif, 'Times New Roman';
+  margin-bottom: 2ex; }
+
+h3
+{ font: 13px/15px Helvetica, Arial, sans-serif;
+  text-align: right; } 
+
+h4
+{ font: 17px/22px Georgia, serif, 'Times New Roman';
+  margin-bottom: 4ex; }
+
+h5 
+{ color: #555555;
+  font-family: times,'Times New Roman',times-roman,georgia,serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 31px;
+  margin-bottom: 5ex; }
+
+h6
+{ color: red;
+  font: 28px/35px Georgia, serif, 'Times New Roman';
+  margin-bottom: 1ex; }
+
+p
+{ font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin: 1em 0; }
+
+p.serif
+{ color: #333333;
+  font-family: times,'Times New Roman',times-roman,georgia,serif;
+  font-size: 17px;
+  line-height: 1.6em;
+  margin: 0px;
+  text-indent: 2em; }
+
+p.block
+{ color: #333333;
+  font-family: times,'Times New Roman',times-roman,georgia,serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  margin: 1.5em 2em; }
+
+p.om
+{ margin: 1ex 0; }
+
+.metadata
+{ font: 13px/20px Helvetica, Arial, sans-serif;
+  margin-top: 3ex;
+  margin-bottom: 5ex; }
+
+
+
+#om #content, #order #content, #titlar #content, #nyhet #content, #portal #content
+{ padding: 0px 40px 0px 45px; }  
+
+a.osynli
+{ text-decoration: none; }
+
+img.center
+{ display: block;   
+  margin-left: auto;   
+  margin-right: auto; }
+
+input.btn
+{ height: 22px;
+  border: #c2c2c2 solid 1px;
+  background-color: #c2c2c2;
+  margin-left: 7px;
+  vertical-align: middle; }
+
+input.txt
+{ height: 16px;
+  text-align: left;
+  font: 13px/15px Helvetica, Arial, sans-serif;
+  color: black;
+  border: #e2e2e2 solid 1px;
+  background-color: #e2e2e2;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  vertical-align:middle; }
+
+input.txt:focus
+{ background-color: #5b88a4;
+  border: #5b88a4 solid 1px; }
+input.btn:focus
+{ border: #5b88a4 solid 1px; 
+  background-color: #5b88a4; }
+
+
+form
+{ width: 100%; }
+
+form div
+{ margin: 0 20px 0 0; 
+  padding-top: 0.6em; }
+
+form div label
+{ float: left;
+  width: 270px;
+  text-align: right;
+  font: 13px/16px Helvetica, Arial, sans-serif; }
+
+form div input.btn
+{ float: right;
+  height: 24px;
+  border: #c2c2c2 2px solid;
+  margin-left: auto;
+  margin-right: auto; }
+
+form div input.btn:focus
+{ border: #5b88a4 2px solid; }
+
+form div input.txt, textarea
+{ float: right;
+  width: 300px;
+  text-align: left;
+  font: 13px/16px Helvetica, Arial, sans-serif;
+  color: black;
+  border: none;
+  background-color: #e2e2e2;
+  margin-right: auto;
+  resize: none;
+  overflow: auto; }
+
+form div input.txt:focus, textarea:focus
+{ background-color: #5b88a4;
+  border: none; }
+
+form div input.txt
+{ height: 1.25em; }
+
+.flow img
+{ float: left;
+  margin: 5px 15px 4px 0px; }
+  
+.flow1 img
+{ float: left;
+  margin: 5px 15px 10px 0px; }
+
+.flow2 img
+{ float: right;
+  margin: 17px 0px 0px 17px; }
+
+.flow3 img
+{ float: left;
+  margin: 5px 35px 5px 0px; }
+
+div.anmal
+{ text-align: center; }
